@@ -1,0 +1,9 @@
+*{
+    text-align: center;
+}
+h1 {
+    background-color: black;
+    color: white;
+    width: 700px;
+    margin: auto;
+}
