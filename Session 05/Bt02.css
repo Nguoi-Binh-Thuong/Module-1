@@ -1,0 +1,9 @@
+ul li {
+    background-color: darkgrey;
+    padding: 10px;
+    list-style: none;
+    width: 50%;
+}
+li:hover {
+    background-color: grey;
+}

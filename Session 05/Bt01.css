@@ -1,0 +1,5 @@
+button {
+  border-style: solid dotted double groove;
+  border-color: orange purple green violet;
+  border-width: 2px 3px 5px 5px;
+}

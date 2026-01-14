@@ -1,0 +1,10 @@
+button {
+    border-style: none;
+    padding: 10px;
+    border-radius: 5px;
+    width: 7%;
+}
+button:active {
+    color: white;
+    background-color: red;
+}
