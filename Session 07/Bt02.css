@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: flex;
+    border-style: solid;
+    padding: 20px;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.child{
+    width: 23%;
+    height: 50%;
+    text-align: center;
+    background-color: lightgreen;
+    border-radius: 4px;
+    padding: 20px;
+    cursor: pointer;
+}

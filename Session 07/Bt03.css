@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    display: grid;
+    border-style: solid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: 6vh 6vh ;
+    padding: 20px;
+    gap: 10px 10px;
+}
+
+.container > div{
+    text-align: center;
+    background-color: lightblue;
+    border-radius: 4px;
+    padding-top: 1.5vh;
+}
+
+.child5{
+    grid-column: 1/span 2;
+}

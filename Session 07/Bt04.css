@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(7, 1fr);
+    gap: 10px;
+    height: 100vh;
+    width: 100vw;
+}
+
+header{
+    background-color: lightskyblue;
+    color: white;
+    grid-area: 1/1/span 1/span 4;
+    padding: 10px;
+}
+
+aside{
+    background-color: greenyellow;
+    color: white;
+    grid-area: 2/1/7/2 ;
+    padding: 10px;
+}
+
+main{
+    background-color: red;
+    color: white;
+    grid-area: 2/2/7/5;
+    padding: 10px;
+}
+
+footer{
+    background-color: purple;
+    color: white;
+    grid-area: 7/1/8/span 4 ;
+    padding: 10px;
+}
+
